@@ -1,0 +1,26 @@
+.section {
+	margin-bottom: 5rem;
+	padding-top: 5rem;
+}
+.viewMore {
+	display: block;
+	margin-top: 3rem;
+}
+.viewMore > img {
+	filter: invert(100%);
+	margin-bottom: -2px;
+	margin-left: 0.3rem;
+	transition: 0.2s;
+}
+.viewMore > span {
+	border-bottom: solid 1px transparent;
+	display: inline-block;
+	padding-bottom: 3px;
+	transition: 0.2s;
+}
+.viewMore:hover > img {
+	margin-left: 1rem;
+}
+.viewMore:hover > span {
+	border-bottom-color: rgb(94 234 212);
+}

@@ -1,0 +1,29 @@
+{
+  "name": "lifercode-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.14",
+    "@types/node": "20.1.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "graphql": "^16.6.0",
+    "next": "13.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.3",
+    "react-scroll": "^1.8.9",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-scroll": "^1.8.7"
+  }
+}
