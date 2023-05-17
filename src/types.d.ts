@@ -1,3 +1,5 @@
+import { ReactNode, RefObject } from "react"
+
 type Link = {
   label: string
   url: string
@@ -28,8 +30,6 @@ export type CardListProps = {
   data: Card[]
 }
 
-// ---
-
 export type SocialType = {
   id: string
   label: string
@@ -50,20 +50,18 @@ export type HeaderProps = {
   data: Data
 }
 
-// ---
-
 export type SectionProps = {
-  ref: any
-  children: any
-  viewMore?: any
-  id: any
-  href?: any
+  id: string
+  ref: RefObject
+  children: ReactNode
+  viewMore?: string
+  href?: string
 }
 
-
-
-
-export type SinglePageProps = any
+export type SinglePageProps = {
+  title: string
+  children: ReactNode
+}
 
 export type ErrorMessageProps = {
   data: string
